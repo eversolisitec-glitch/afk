@@ -1,0 +1,17 @@
+name: ChunkMinion
+version: 1.0.0
+main: hn.minion.ChunkMinion
+api-version: '26.1'
+description: Minion (armor stand pequeño) que mantiene chunks cargados.
+commands:
+  minion:
+    description: Gestiona el minion cargador de chunks.
+    usage: /minion give [jugador] | clean | reload
+    permission: chunkminion.admin
+permissions:
+  chunkminion.use:
+    description: Colocar minions.
+    default: true
+  chunkminion.admin:
+    description: Dar items, recargar, recoger minions ajenos y sin límite.
+    default: op

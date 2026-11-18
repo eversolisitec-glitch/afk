@@ -1,0 +1,4 @@
+# Radio de chunks que mantiene cargados cada minion (2 = área de 5x5 chunks). Máx 8.
+radius: 2
+# Máximo de minions por jugador (0 = sin límite).
+max-per-player: 3
